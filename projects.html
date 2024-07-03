@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Claire's World</title>
+  <link rel="stylesheet" href="projects.css">
+  <script defer src="projects.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header >
+  <a href="#" class="claireA">Claire Arisa</a>
+  <ul>
+    <li><a href="index.html" >About Me</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</header>
+
+<div class="projects-section">
+  <h1>Latest Projects</h1>
+  <div class="projects-container">
+      <div class="project-card ds" data-project="project1">
+          <img src="images/Screenshot 2024-07-03 065959.png" alt="Project 1">
+          <div class="overlay">
+            <button class="preview">Preview</button>
+              <button class="read-more">Read More</button>
+              <button class="Try"> <a  href="https://carisa9.github.io/dsgame/" class="github-link-button">Try It</a></button>
+          </div>
+      </div>
+      <div class="project-card rmt" data-project="project2">
+          <img src="images/Screenshot 2024-07-03 070029.png" alt="Project 2">
+          <div class="overlay">
+            <button class="preview">Preview</button>
+              <button class="read-more">Read More</button>
+             <button style="border: none;" class="Try2"> <a  href="https://carisa9.github.io/RiddleMeThis/" class="github-link-button">Try It</a></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal" id="video-modal">
+  <div class="modal-content">
+      <span class="close" id="video-close">&times;</span>
+      <video width="400" controls>
+        <source src="videos/2024-07-03 07-25-03.mp4" type="video/mp4">
+        <source src="videos/2024-07-03 07-47-51.mp4" type="video/mp4">
+      </video>
+  </div>
+</div>
+
+<div class="modal" id="video-modal">
+  <div class="modal-content">
+      <span class="close" id="video-close">&times;</span>
+      <video width="400" controls>
+        <source src="videos/2024-07-03 07-47-51.mp4" type="video/mp4">
+      </video>
+  </div>
+</div>
+
+
+<div class="modal" id="description-modal">
+  <div class="modal-content">
+      <span class="close" id="description-close">&times;</span>
+      <p id="project-description"></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

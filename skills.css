@@ -1,0 +1,107 @@
+@font-face {
+  font-family: idk;
+  src: url(fonts/FredokaOne-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: idk;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #DDCDF1;
+  overflow-x: hidden;
+  background-image:url(images/bgg.png);
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000000;
+}
+
+header .claireA {
+  color: #b20a78;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: rgb(177, 10, 119);
+  border-radius: 20px;
+}
+
+header ul li a:hover, header a.active{
+  color: white;
+  background: rgb(177, 10, 119);
+}
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  flex-direction: column; 
+  
+}
+
+.image-container img {
+  margin: 10px; 
+  max-width: 100%;
+  height: auto; 
+
+}
+
+.img1{
+  position: relative;
+  top: 459px;
+  left: 320px;
+  width: 500px;
+}
+
+
+.img3 {
+  position: relative;
+  top: -455px;
+  left: -317px;
+}
+
+
+.sec {
+  top: -102px;
+  background: #DDCDF1;
+  padding: 100px;
+  width: 100%;
+  font-size: 1.2em;
+  color: #b20a78;
+  position: relative;
+  left: -50px;
+  margin-right: 200px;
+}
